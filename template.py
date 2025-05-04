@@ -10,3 +10,8 @@
 # 풀이 방법 및 시간, 공간복잡도 계산
 
 # 코드 작성
+import sys
+_input = sys.stdin.readline
+def minput(): return map(int, _input().split())
+
+N = int(_input())
