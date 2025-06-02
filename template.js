@@ -13,3 +13,5 @@
 const fs = require("fs");
 
 N = fs.readFileSync(0).toString().trim();
+// N = fs.readFileSync('/dev/stdin').toString().trim(); // 백준 제출용
+print = console.log
